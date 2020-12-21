@@ -23,7 +23,18 @@ public class MainActivity3 extends AppCompatActivity {
                 startActivity(intent);
             }
         });
-
+        fav.setOnClickListener(new View.OnClickListener() {
+            int button01pos = 0;
+            public void onClick(View v) {
+                if (button01pos == 0) {
+                    fav.setImageResource(R.drawable.fav);
+                    button01pos = 1;
+                } else if (button01pos == 1) {
+                    fav.setImageResource(R.drawable.favorite2);
+                    button01pos = 0;
+                }
+            }
+        });
 
     }
 
