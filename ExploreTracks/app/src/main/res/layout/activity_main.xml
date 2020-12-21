@@ -307,7 +307,6 @@
         android:text="Up next"
         android:textColor="#5A68E7"
         android:textSize="12sp"
-        android:background="color/#F6F5FC"
         app:layout_constraintStart_toStartOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
 
